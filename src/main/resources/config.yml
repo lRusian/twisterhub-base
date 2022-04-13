@@ -1,0 +1,47 @@
+license: ""
+system:
+  queue: "NONE" # EZQUEUE, PORTAL, NONE
+  rank: "VAULT" # VAULT, AQUACORE, MIZU, ZOOT, ZOOM, HESTIA
+
+jump:
+  enabled: true
+  velocity: 1.0
+  sound: "BLAZE_HIT"
+
+commands:
+  discord:
+    enabled: true
+    lines:
+      - "&7&m-----------------------------"
+      - "&9Discord&7: &fhttps://discord.gg/<yourcode>"
+      - "&7&m-----------------------------"
+  store:
+    enabled: true
+    lines:
+      - "&7&m-----------------------------"
+      - "&dStore&7: &fhttps://store.pepsidev.com"
+      - "&7&m-----------------------------"
+  teamspeak:
+    enabled: true
+    lines:
+      - "&7&m------------------------------"
+      - "&6Teamspeak&7: &fts.pepsidev.com"
+      - "&7&m------------------------------"
+  telegram:
+    enabled: false
+    lines:
+      - "&7&m------------------------------"
+      - "&5Telegram&7: &ftelegram.pepsidev.com"
+      - "&7&m------------------------------"
+  twitter:
+    enabled: true
+    lines:
+      - "&7&m------------------------------"
+      - "&bTwitter&7: &ftwitter.com/pepsidevelopment"
+      - "&7&m------------------------------"
+  website:
+    enabled: true
+    lines:
+      - "&7&m------------------------------"
+      - "&aWebsite&7: &fwww.pepsidev.com"
+      - "&7&m------------------------------"

@@ -1,0 +1,14 @@
+name: TwistHub
+version: 0.1
+main: dev.pepsidev.hub
+authors:
+  - JesusMX
+  - lRussian
+commands:
+  discord:
+  store:
+  teamspeak:
+  telegram:
+  twitter:
+  website:
+  setspawn:

@@ -1,0 +1,31 @@
+# PLACEHOLDERS:
+# %rank%
+# %coloredrank%
+#
+# %server-queue% (ONLY WORK IN-QUEUE MODE)
+# %position-queue% (ONLY WORK IN-QUEUE MODE)
+# %size-queue% (ONLY WORK IN-QUEUE MODE)
+#
+# EXTERNAL PLACEHOLDER:
+# %bungee_total% | you need install expansion /papi ecloud download Bungee
+scoreboard:
+  enabled: true
+  title: "&9&lPepsi Development"
+  default:
+    - "&7&m--------------------"
+    - "&fOnline&7: &b%bungee_total%"
+    - "&fRank&7: &b%coloredrank%"
+    - ""
+    - "&7&opepsidev.com"
+    - "&7&m--------------------"
+  in-queue:
+    - "&7&m--------------------"
+    - "&fOnline&7: &b%bungee_total%"
+    - "&fRank&7: &r%coloredrank%%rank%"
+    - ""
+    - "&fServer&7: &b%server-queue%"
+    - "&fPosition&7: &b%position-queue%"
+    - "&fSize&7: &b%size-queue%"
+    - ""
+    - "&7&opepsidev.com"
+    - "&7&m--------------------"
